@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.che</groupId>
     <artifactId>lu_music</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>lu_music</name>
     <description>Demo project for Spring Boot</description>
     <properties>
