@@ -19,9 +19,9 @@ RUN mvn -f /app/pom.xml clean package
 FROM alpine:3.13
 
 ENV  MYSQL_HOST 10.0.224.17
-ENV  MYSQL_USER_NAME qia
-ENV  MYSQL_PASSWORD Hu824407
-ENV  DATABASE_NAME lu-music
+ENV  MYSQL_USER_NAME root
+ENV  MYSQL_PASSWORD Music2022
+ENV  DATABASE_NAME lu_music
 
 
 RUN apk add --update --no-cache openjdk8-jre-base \

@@ -9,9 +9,9 @@
   "policyThreshold": 60,
   "envParams": {},
   "customLogs": "stdout",
-  "dataBaseName":"lu-music",
+  "dataBaseName": "lu_music",
   "executeSQLs":[
-    "CREATE DATABASE IF NOT EXISTS lu-music;",
+    "CREATE DATABASE IF NOT EXISTS lu_music;",
     "USE DATABASE lu-music"
   ]
 }
