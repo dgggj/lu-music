@@ -19,14 +19,14 @@ RUN mvn -f /app/pom.xml clean package
 FROM alpine:3.13
 
 ENV  MYSQL_HOST 10.0.224.17
-ENV  MYSQL_USER root
-ENV  MYSQL_PASSWORD r3sUR4RH
+ENV  MYSQL_USER_NAME music
+ENV  MYSQL_PASSWORD Music2022
 ENV  DATABASE_NAME lu_music
 
 
 RUN apk add --update --no-cache openjdk8-jre-base \
     && rm -f /var/cache/apk/*
-
+git add
 # 容器默认时区为UTC，如需使用上海时间请启用以下时区设置命令
 # RUN apk add tzdata && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo Asia/Shanghai > /etc/timezone
 
