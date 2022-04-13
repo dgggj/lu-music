@@ -21,7 +21,7 @@ FROM alpine:3.13
 ENV  MYSQL_HOST 10.0.224.17
 ENV  MYSQL_USER_NAME root
 ENV  MYSQL_PASSWORD r3sUR4RH
-ENV  DATABASE_NAME lu_music
+ENV  DATABASE_NAME lu-music
 
 
 RUN apk add --update --no-cache openjdk8-jre-base \
