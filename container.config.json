@@ -11,9 +11,7 @@
   "customLogs": "stdout",
   "dataBaseName":"lu_music",
   "executeSQLs":[
-    "CREATE DATABASE IF NOT EXISTS lu_music;",
-    "USE lu_music;"
-
+    "CREATE DATABASE IF NOT EXISTS lu_music;"
   ]
 }
 
