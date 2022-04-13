@@ -3,16 +3,16 @@
   "containerPort": 80,
   "minNum": 0,
   "maxNum": 50,
-  "cpu": 1,
-  "mem": 1,
+  "cpu": 0.25,
+  "mem": 0.25,
   "policyType": "cpu",
   "policyThreshold": 60,
   "envParams": {},
   "customLogs": "stdout",
-  "dataBaseName": "lu_music",
+  "dataBaseName":"lu_music",
   "executeSQLs":[
     "CREATE DATABASE IF NOT EXISTS lu_music;",
-    "USE DATABASE lu-music"
+    "USE DATABASE lu_music"
   ]
 }
 

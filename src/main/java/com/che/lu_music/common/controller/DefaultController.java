@@ -1,4 +1,4 @@
-package com.che.lu_music.controller;
+package com.che.lu_music.common.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
